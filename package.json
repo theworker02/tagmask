@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tagmask",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tag encode/decode helpers for mask payloads in pipelines.",
+  "bin": {
+    "tagmask": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tagmask.git"
+  },
+  "homepage": "https://theworker02.github.io/tagmask/",
+  "keywords": [
+    "tag",
+    "mask",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
